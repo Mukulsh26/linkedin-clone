@@ -117,7 +117,7 @@ function Login() {
           width: '120px', 
           height: '70px'
         }} 
-        src="/images/Linkedin-logo.png" 
+        src="/images/Linkedin-Logo.png" 
         alt="LinkedIn Logo" 
       />
       <Card>
