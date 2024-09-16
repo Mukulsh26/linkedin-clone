@@ -1,0 +1,250 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  .profile-card {
+    background-color: #fff;
+    border-radius: 20px;
+    height: 550px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+  }
+  .ckVuRp {
+    padding: 16px 16px!important;
+  }
+  .hJKIWy {
+    border-radius: 20px!important;
+  }
+  .profile-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .profile-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-card-info {
+    flex-grow: 1;
+  }
+  
+  .profile-card-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-card-pronoun {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .profile-card-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card-location {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .profile-card-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .profile-card-link:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-card-company {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .profile-card-company-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .profile-card-company-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile-card-body {
+    margin-top: 20px;
+  }
+  
+  .profile-card-portfolio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card-connections {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .profile-card-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .profile-card-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .profile-card-open-to-work {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 20px;
+  }
+  
+  .profile-card-open-to-work-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-card-open-to-work-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header {
+    background: #0073b1;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  button {
+    background: #0073b1;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background: #005a8c;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  a {
+    color: #0073b1;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .feed-post {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+  }
+  
+  .feed-post h2 {
+    font-size: 18px;
+  }
+  
+  .feed-post p {
+    font-size: 16px;
+  }
+  
+  .profile-header {
+    background: #0073b1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header h1 {
+    font-size: 24px;
+  }
+  
+  .profile-details {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .profile-details p {
+    font-size: 16px;
+  }
+  
