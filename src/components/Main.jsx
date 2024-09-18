@@ -238,7 +238,7 @@ function Main() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState("close");
-  const [user, setUser] = useState({ email: "mukulsh7496@gmail.com" }); // Default user state
+  const [user, setUser] = useState({ email: "mukulsh7496@gmail.com", name: "Mukul" }); // Default user state
   const [newCommentText, setNewCommentText] = useState(""); // State for new comment input
   const [commentInputs, setCommentInputs] = useState([]); // State for comment inputs for each post
   const [commentBoxVisible, setCommentBoxVisible] = useState({});
@@ -350,7 +350,7 @@ function Main() {
     const newComment = {
       text: commentText,
       date: new Date().toISOString(), // or another date format
-      user: user.email, // Assuming user has an email
+      user: user.name, // Assuming user has an email
     };
 
     // Add the new comment to the article's comments array
